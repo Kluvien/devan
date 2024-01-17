@@ -1,0 +1,95 @@
+body {
+    background-size: auto;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+.mainLoginInput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    opacity: 1; /* Firefox */
+  }
+  
+  .mainLoginInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  }
+  
+  .mainLoginInput::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  }
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 2% 5%;
+    border-radius: 12px;
+    border: 3px solid #cfd1b5;
+}
+
+.logincashier {
+    text-align: center;
+    color: #CFD1B5;
+}
+
+.logincashier > img {
+    width: 50%;
+}
+
+input[type="username"], input[type="password"] {
+    padding: 12px 20px;
+    font-size: 26px;
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: #cfd1b5;
+    text-align: center;
+    border: 2px solid #cfd1b5;
+    border-radius: 12px;
+    outline: none;
+}
+
+.tombol {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.tombol > a {
+    padding: auto;
+}
+
+button {
+    padding: 12px 50px;
+    width: 100%;
+    background-color: #82888C;
+    color: rgb(0, 0, 0);
+    border: none;
+    align-items: center;
+    border-radius: 22px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.forgot-password {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login {
+    background-image: url(boba.jpg);
+    background-position: center;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+}
